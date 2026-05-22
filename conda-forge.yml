@@ -1,4 +1,8 @@
 conda_build_tool: rattler-build
+conda_install_tool: pixi
+bot:
+  automerge: true
+  inspection: update-grayskull
 github:
   branch_name: main
   tooling_branch_name: main
