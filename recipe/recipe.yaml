@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.4"
+  version: 0.4.7
 
 package:
   name: mlx-audio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mlx-audio/mlx_audio-${{ version }}.tar.gz
-  sha256: d751e5f477517e4e7f04de5567318e2fe91b4606af5d7e4b2973603c4777814a
+  sha256: bfd2ee61342ca58ba15b4cef20ff7910600788cb7c604c8bffd32a45a3d62c98
 
 build:
   number: 0
@@ -40,8 +40,7 @@ requirements:
     - scipy >=1.10.0
     - python-sounddevice >=0.5.3
     - tqdm >=4.67.1
-    - transformers >=5.5.0
-
+    - transformers >=5.14.0
 tests:
   - python:
       imports:
