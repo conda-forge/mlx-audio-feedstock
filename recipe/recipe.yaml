@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.6"
+  version: "0.5.7"
 
 package:
   name: mlx-audio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mlx-audio/mlx_audio-${{ version }}.tar.gz
-  sha256: 6f6fb5107bf4647dd3ed079c48ee9f0db90a443803c75bcfd2a396b392d33fdd
+  sha256: 4446704bd8305b3957a6e422234118142e32b87a55d7d3e33b0fb8dbca516543
 
 build:
   number: 0
