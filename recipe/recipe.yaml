@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.4"
+  version: 0.6.5
 
 package:
   name: mlx-audio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mlx-audio/mlx_audio-${{ version }}.tar.gz
-  sha256: 092dee1f010846cee76b164a988ad9802e45d4c79771d65d55ceb9de246fab4b
+  sha256: 96e41009b7819c8dfa3a288ebc36c92da83cc5718302a84d26326fa2122ee26c
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - python >=${{ python_min }}
     - huggingface_hub >=1.0
     - miniaudio >=1.71
-    - mlx ==0.32.4
+    - mlx >=0.32.4
     - numpy >=1.26.4
     - scipy >=1.10.0
     - python-sounddevice >=0.5.3
