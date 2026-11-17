@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.6.5
+  version: 0.6.6
 
 package:
   name: mlx-audio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mlx-audio/mlx_audio-${{ version }}.tar.gz
-  sha256: 96e41009b7819c8dfa3a288ebc36c92da83cc5718302a84d26326fa2122ee26c
+  sha256: 7d5ce0feae7f2ddba2f7f3e47cd77e26fa9db20f1208de2187f54c84728c6269
 
 build:
   number: 0
@@ -42,6 +42,12 @@ requirements:
     - transformers >=5.14.0
     - sentencepiece >=0.2.0
     - jinja2 >=3.1.6
+    - anyio >=4.14.2
+    - filelock >=4.2.1
+    - urllib3 >=2.8.0
+    - certifi >=2026.10.18
+    - fsspec >=2026.6.0
+    - requests >=2.33.0
 tests:
   - python:
       imports:
